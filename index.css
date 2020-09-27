@@ -1,0 +1,114 @@
+ul{
+	margin-left: 200px;
+	margin-top: 200px;
+	background-color: blanc;
+}
+li{
+	display: inline;
+	color: gray;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+li a {
+	color:gray;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #f2745f;
+}
+h6,h2{
+	color: white;
+	text-align: center;
+}
+
+
+.banner{
+	margin-top: 25px;
+	margin-left: 75px;
+	margin-right: 75px;
+	background-image: url("banner-bg.jpg") ;
+	background-size: auto;
+}
+button{
+	display: inline-block;
+	padding: 10px 10px;
+	border:none;
+	text-align: center;
+    text-decoration: none;
+	font-size: 15px;
+	color: white;
+
+}
+.button1{
+	margin-top: 5px;
+	margin-bottom: 100px;
+	margin-left: 425px;
+}
+.intro{
+	background-color:  #46bae2;
+	margin-left: 75px;
+	margin-right: 75px;
+
+}
+.button2{
+	background-color: #46bae2;
+	border-style:solid ;
+	border-width:2px;
+	left: 50%;
+	margin-left:500px;
+	margin-bottom: 40px;
+}
+.icone{
+	width:70px;
+    height:70px;
+/*    position:relative;
+    top: 35%;
+    left: 40%;*/
+    display: block;
+    margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.serv{
+	background-image:url("services-bg.jpg");
+	height: 300px;
+	margin-top: 5px;
+	margin-left: 75px;
+	margin-right:75px;
+}
+.colonne{
+	float: left;
+	width: 33.33%;
+	height: 300px;
+}
+.CRM{
+	background-color:rgba(54, 62, 80, 0.75);
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+img:hoover{
+	transform: rotate(25deg);
+}
+form{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+input:required{
+	background-color: rgba(0, 0, 0, 0.03);
+	font-size: 15px;
+	color: #7a7a7a ;
+	width: 100%;
+	height:50px;
+	margin-bottom: 30px;
+	border-style: none;
+
+}
+footer{
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-top: 15px;
+	background-color: rgba(54, 62, 80, 0.75);
+	height: 130px;
+}
